@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sistema de Usuários</title>
+  </head>
+  <link rel="stylesheet" href="style.css" />
+  <body>
+    <h1>Gerenciamento de Usuários</h1>
+
+    <input type="text" id="userInput" placeholder="Digite o nome do usuário" />
+
+    <div class="botones">
+      <button onclick="addUser()">Adicionar</button>
+      <button onclick="findUser()">Buscar</button>
+      <button onclick="deleteUser()">Remover</button>
+    </div>
+
+    <p id="message"></p>
+
+    <h2>Lista de Usuários:</h2>
+    <div class="listausuarios">
+      <ul id="userList"></ul>
+    </div>
+  </body>
+  <script src="./index.js"></script>
+</html>
