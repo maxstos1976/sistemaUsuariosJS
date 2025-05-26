@@ -1,4 +1,4 @@
-# SystemOfUsers
+# Sistema de usuarios
 
 Sistema simples para gerenciar usuários. Este projeto permite adicionar, visualizar e excluir usuários de um sistema. Ele foi criado com o propósito de praticar conceitos básicos de programação e controle de dados.
 
